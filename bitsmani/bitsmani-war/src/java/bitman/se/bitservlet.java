@@ -48,7 +48,8 @@ public class bitservlet extends HttpServlet {
             String s = client.getHelloWorld();
             int ok  =   Integer.parseInt(s);
             int add  = i + ok;
-            out.println("okok");
+            //out.println("okok");
+            out.println("\n");
             out.println("Addition Of Two Number Using RMI"+add);
         }
     }
